@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Poppins-bold;
+    src: url("Font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url("Font/Poppins-Regular.ttf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.background {
+    background: url("image/background.png");
+    position: relative;
+    width: 1366px;
+    height: 768px;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    font-family: poppins-regular;
+    font-size: 25px;
+    color: white;
+}
+
+input {
+    position: relative;
+    top: 10px;
+    left: 70px;
+    height: 25px;
+    width: 1190px;
+    font-size: 15px;
+    font-family: poppins-regular;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.content {
+    overflow-y: auto;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    width: 1210px;
+    height: 468px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: white;
+}
+
+
+.font1, .font2 {
+    position: relative;
+    font-family: poppins-regular;
+    padding-left: 190px;
+    display: flex;
+}
+
+
+.table {
+    border-radius: 10px;
+    width: 1208px;
+    height: 77px;
+}
+
+table {
+    transform: scale(1);
+    transition: 0.3s ease;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+
+.table:hover {
+    transition: 0.1s ease;
+    transform: scale(1.02);
+}
